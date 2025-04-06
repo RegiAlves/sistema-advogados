@@ -56,6 +56,7 @@ ROOT_URLCONF = 'sistema.urls'
 
 TEMPLATES = [
     {
+        'APP_DIRS': True,
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
@@ -66,6 +67,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
+        
     },
 ]
 
